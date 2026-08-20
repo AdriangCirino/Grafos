@@ -1,26 +1,24 @@
+#include "Aresta.h"
 #include "Grafo.h"
+#include <exception>
+#include <string>
 #include <iostream>
-#include <stack>
-
 using namespace std;
 
 int main() {
+    
+    Grafo g(6);
+    cout << "Tem aresta ("<< e.v1", " << e.v2"):"<<g.tem_aresta(e)<<"\n";
+    cout << "Tem aresta 2 , 5:" << g.tem_aresta(Aresta(1,3))<<"\n";
+
+
+    Grafo h(-1);
+
+
+
+
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // #include "Circulo.h"
 // #include <iostream>
